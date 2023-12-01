@@ -10,7 +10,7 @@ dashedName: handle-a-disconnect
 
 Potresti notare che fino a questo momento hai solo incremementato il numero degli utenti. Gestire la disconnessione di un utente è semplice come gestire la connessione iniziale, solo che si deve mettersi in ascolto per essa su ogni socket invece che su tutto il server.
 
-Per fare questo, aggiungi un altro listener all'interno del listener `'connect'` esistente, in modo che attenda un evento `'disconnect'` sul socket (senza alcun passaggio di dati). È possibile testare questa funzionalità semplicemente scrivendo nella console che un utente si è disconnesso.
+Per fare questo, aggiungi un altro listener all'interno del listener 'connect' esistente, in modo da ascoltare l'evento 'disconnect' sul socket (senza alcun passaggio di dati). È possibile testare questa funzionalità semplicemente scrivendo nella console che un utente si è disconnesso.
 
 ```js
 socket.on('disconnect', () => {
