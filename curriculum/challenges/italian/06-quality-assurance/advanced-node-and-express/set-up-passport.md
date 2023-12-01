@@ -10,7 +10,7 @@ dashedName: set-up-passport
 
 È ora di configurare *Passport* così da permettere finalmente a un utente di registrarsi o accedere a un account. In aggiunta a Passport, userai Express-session per gestire le sessioni. Express-session ha un sacco di funzionalità avanzate che puoi usare ma per ora userai solo le basi. Usare questo middleware salva l'id di sessione come cookie nel client e permette di accedere ai dati di sessione usando quell'id sul server. In questo modo, mantieni le informazioni personali dell'account al di fuori del cookie usato dal client per comunicare al tuo server di essere autenticato e tieni solo la *key* per accedere ai dati immagazzinati nel server.
 
-`passport@~0.4.1` e `express-session@~1.17.1` sono già installati e sono entrambi elencati come dipendenze nel tuo file `package.json`.
+`passport@~0.4.1` e `express-session@~1.17.1` sono già installati e sono entrambi elencate come dipendenze nel tuo file `package.json`.
 
 Dovrai configurare le impostazioni della sessione e inizializzare Passport. Per prima cosa, crea le variabili `session` e `passport` per richiedere rispettivamente `express-session` e `passport`.
 
