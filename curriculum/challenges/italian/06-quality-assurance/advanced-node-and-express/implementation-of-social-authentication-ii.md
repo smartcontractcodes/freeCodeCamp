@@ -29,7 +29,7 @@ passport.use(new GitHubStrategy({
 ));
 ```
 
-La tua autenticazione non avrà ancora successo, anzi lancerà un errore senza la logica del database e la chiamata, ma se provi dovrebbe registrare il tuo profilo GitHub sulla tua console!
+La tua autenticazione non avrà ancora successo a meno che tu non implementi la logica del database e la chiamata, ma se provi dovrebbe registrare il tuo profilo GitHub sulla tua console!
 
 Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri degli errori, puoi vedere <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implementation-of-social-authentication-ii-4" target="_blank" rel="noopener noreferrer nofollow">il progetto completato fino a questo punto</a>.
 
